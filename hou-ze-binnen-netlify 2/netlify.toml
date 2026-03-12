@@ -1,0 +1,21 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+[[redirects]]
+  from = "/reserveer"
+  to = "/reserveer/"
+  status = 301
+
+[[redirects]]
+  from = "/bedankt"
+  to = "/bedankt/"
+  status = 301
+
+[[redirects]]
+  from = "/admin"
+  to = "/admin/"
+  status = 301

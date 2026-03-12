@@ -1,0 +1,9 @@
+{
+  "name": "hou-ze-binnen-netlify-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Netlify-ready landingssite met Decap CMS voor Hou Ze Binnen",
+  "scripts": {
+    "build": "node build.mjs"
+  }
+}

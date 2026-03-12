@@ -1,0 +1,343 @@
+backend:
+  name: git-gateway
+  branch: main
+
+publish_mode: simple
+site_url: https://www.personeelslek.nl
+logo_url: /favicon.svg
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+collections:
+  - label: "Website"
+    name: "website"
+    files:
+      - label: "Site inhoud"
+        name: "site"
+        file: "content/site.json"
+        fields:
+          - label: "Site"
+            name: "site"
+            widget: object
+            fields:
+              - { label: "Brandnaam", name: "brandName", widget: string }
+              - { label: "Masterclassnaam", name: "masterclassName", widget: string }
+              - { label: "Tagline", name: "tagline", widget: string }
+              - { label: "Site titel", name: "siteTitle", widget: string }
+              - { label: "Meta description", name: "metaDescription", widget: text }
+              - { label: "Site URL", name: "siteUrl", widget: string }
+              - { label: "CTA label", name: "ctaLabel", widget: string }
+              - { label: "CTA pad", name: "ctaPath", widget: string }
+              - { label: "E-mailadres", name: "primaryEmail", widget: string }
+              - { label: "KVK", name: "kvk", widget: string }
+              - { label: "Adres", name: "addressLine", widget: string }
+              - { label: "Postcode", name: "postalCode", widget: string }
+              - { label: "Plaats", name: "city", widget: string }
+              - { label: "Footer notitie", name: "footerNote", widget: text }
+              - { label: "Favicon pad", name: "faviconPath", widget: string, required: false }
+              - { label: "Hero afbeelding", name: "heroImage", widget: image, required: false }
+              - { label: "Hero afbeelding alt", name: "heroImageAlt", widget: string, required: false }
+              - { label: "Verhaal afbeelding", name: "storyImage", widget: image, required: false }
+              - { label: "Verhaal afbeelding alt", name: "storyImageAlt", widget: string, required: false }
+              - { label: "Over Samir afbeelding", name: "aboutImage", widget: image, required: false }
+              - { label: "Over Samir afbeelding alt", name: "aboutImageAlt", widget: string, required: false }
+              - { label: "OG afbeelding pad", name: "ogImage", widget: string, required: false }
+
+          - label: "Navigatie"
+            name: "navigation"
+            widget: list
+            summary: "{{fields.label}}"
+            fields:
+              - { label: "Label", name: "label", widget: string }
+              - { label: "Link", name: "href", widget: string }
+              - { label: "Is knop", name: "isButton", widget: boolean, required: false, default: false }
+
+          - label: "Hero"
+            name: "hero"
+            widget: object
+            fields:
+              - { label: "Kicker", name: "kicker", widget: string }
+              - { label: "Titel", name: "title", widget: string }
+              - label: "Paragrafen"
+                name: "paragraphs"
+                widget: list
+                field: { label: "Paragraaf", name: "paragraph", widget: text }
+              - { label: "Proofregel", name: "proof", widget: text }
+              - { label: "Microcopy", name: "microcopy", widget: string }
+
+          - label: "Bewijsstrook"
+            name: "proofBar"
+            widget: object
+            fields:
+              - { label: "Label", name: "label", widget: string }
+              - label: "Items"
+                name: "items"
+                widget: list
+                field: { label: "Item", name: "item", widget: string }
+
+          - label: "Herken je dit"
+            name: "pain"
+            widget: object
+            fields:
+              - { label: "Titel", name: "title", widget: string }
+              - label: "Pijnpunten"
+                name: "items"
+                widget: list
+                summary: "{{fields.cue}}"
+                fields:
+                  - { label: "Cue", name: "cue", widget: string }
+                  - { label: "Tekst", name: "text", widget: text }
+              - { label: "Slotregel", name: "closing", widget: string }
+
+          - label: "Waarom luisteren"
+            name: "story"
+            widget: object
+            fields:
+              - { label: "Titel", name: "title", widget: text }
+              - label: "Paragrafen"
+                name: "paragraphs"
+                widget: list
+                field: { label: "Paragraaf", name: "paragraph", widget: text }
+              - { label: "Pull quote", name: "pullQuote", widget: text }
+              - label: "Tijdlijn"
+                name: "timeline"
+                widget: list
+                field: { label: "Stap", name: "step", widget: string }
+
+          - label: "Omslagpunt"
+            name: "turningPoint"
+            widget: object
+            fields:
+              - { label: "Titel", name: "title", widget: text }
+              - label: "Paragrafen"
+                name: "paragraphs"
+                widget: list
+                field: { label: "Paragraaf", name: "paragraph", widget: text }
+              - label: "Factoren"
+                name: "factors"
+                widget: list
+                field: { label: "Factor", name: "factor", widget: string }
+              - { label: "Intro uitkomsten", name: "outcomesIntro", widget: text }
+              - label: "Uitkomsten"
+                name: "outcomes"
+                widget: list
+                field: { label: "Uitkomst", name: "outcome", widget: string }
+
+          - label: "Formule"
+            name: "formula"
+            widget: object
+            fields:
+              - { label: "Titel", name: "title", widget: text }
+              - { label: "Intro", name: "intro", widget: text }
+              - label: "Cards"
+                name: "cards"
+                widget: list
+                summary: "{{fields.title}}"
+                fields:
+                  - { label: "Titel", name: "title", widget: string }
+                  - { label: "Tekst", name: "body", widget: text }
+              - { label: "Intro knoppen", name: "knobIntro", widget: text }
+              - label: "7 knoppen"
+                name: "knobs"
+                widget: list
+                field: { label: "Knop", name: "knob", widget: string }
+              - { label: "Slottekst", name: "closing", widget: text }
+
+          - label: "Besparen"
+            name: "savings"
+            widget: object
+            fields:
+              - { label: "Titel", name: "title", widget: string }
+              - label: "Items"
+                name: "items"
+                widget: list
+                field: { label: "Item", name: "item", widget: string }
+              - { label: "Slottekst", name: "closing", widget: text }
+
+          - label: "In één dag"
+            name: "agenda"
+            widget: object
+            fields:
+              - { label: "Titel", name: "title", widget: text }
+              - label: "Items"
+                name: "items"
+                widget: list
+                field: { label: "Item", name: "item", widget: string }
+              - { label: "Slotregel", name: "closing", widget: text }
+
+          - label: "Lens"
+            name: "lens"
+            widget: object
+            fields:
+              - { label: "Titel", name: "title", widget: text }
+              - label: "Anders kijken naar"
+                name: "seeDifferently"
+                widget: list
+                field: { label: "Item", name: "item", widget: string }
+              - label: "Naar huis met"
+                name: "takeHome"
+                widget: list
+                field: { label: "Item", name: "item", widget: string }
+
+          - label: "Bewijs"
+            name: "proof"
+            widget: object
+            fields:
+              - { label: "Titel", name: "title", widget: text }
+              - label: "Intro"
+                name: "intro"
+                widget: list
+                field: { label: "Paragraaf", name: "paragraph", widget: text }
+              - label: "Geloof in"
+                name: "beliefs"
+                widget: list
+                field: { label: "Item", name: "item", widget: string }
+              - { label: "Brugtekst", name: "bridge", widget: text }
+              - label: "Proofblokken"
+                name: "proofBlocks"
+                widget: list
+                summary: "{{fields.label}}"
+                fields:
+                  - { label: "Label", name: "label", widget: string }
+                  - { label: "Waarde", name: "value", widget: text }
+              - label: "Bewijssnippers"
+                name: "snippetImages"
+                widget: list
+                required: false
+                summary: "{{fields.label}}"
+                fields:
+                  - { label: "Label", name: "label", widget: string, required: false }
+                  - { label: "Afbeelding", name: "image", widget: image }
+                  - { label: "Alt-tekst", name: "alt", widget: string, required: false }
+              - { label: "Slottekst", name: "closing", widget: text }
+
+          - label: "Voor wie"
+            name: "audience"
+            widget: object
+            fields:
+              - { label: "Titel", name: "title", widget: string }
+              - { label: "Intro", name: "intro", widget: text }
+              - label: "Fit-items"
+                name: "fitItems"
+                widget: list
+                field: { label: "Item", name: "item", widget: string }
+              - label: "Sectoren"
+                name: "sectors"
+                widget: list
+                field: { label: "Sector", name: "sector", widget: string }
+              - { label: "Slotregel", name: "closing", widget: text }
+
+          - label: "Niet voor"
+            name: "notFor"
+            widget: object
+            fields:
+              - { label: "Titel", name: "title", widget: string }
+              - label: "Items"
+                name: "items"
+                widget: list
+                field: { label: "Item", name: "item", widget: text }
+
+          - label: "Praktische info"
+            name: "practical"
+            widget: object
+            fields:
+              - { label: "Titel", name: "title", widget: string }
+              - label: "Details"
+                name: "details"
+                widget: list
+                summary: "{{fields.label}}"
+                fields:
+                  - { label: "Label", name: "label", widget: string }
+                  - { label: "Waarde", name: "value", widget: string }
+              - label: "Prijzen"
+                name: "prices"
+                widget: list
+                summary: "{{fields.label}}"
+                fields:
+                  - { label: "Label", name: "label", widget: string }
+                  - { label: "Waarde", name: "value", widget: string }
+                  - { label: "Highlight", name: "highlight", widget: boolean, default: false, required: false }
+              - label: "Paragrafen"
+                name: "copy"
+                widget: list
+                field: { label: "Paragraaf", name: "paragraph", widget: text }
+              - { label: "Microcopy", name: "microcopy", widget: string }
+
+          - label: "Over Samir"
+            name: "about"
+            widget: object
+            fields:
+              - { label: "Titel", name: "title", widget: text }
+              - { label: "Intro", name: "intro", widget: text }
+              - label: "Paragrafen"
+                name: "paragraphs"
+                widget: list
+                field: { label: "Paragraaf", name: "paragraph", widget: text }
+              - { label: "Titel geloof", name: "beliefsTitle", widget: string }
+              - label: "Geloof-items"
+                name: "beliefs"
+                widget: list
+                field: { label: "Item", name: "item", widget: string }
+              - { label: "Titel verwachtingen", name: "expectationsTitle", widget: string }
+              - label: "Verwachtingen"
+                name: "expectations"
+                widget: list
+                field: { label: "Item", name: "item", widget: string }
+
+          - label: "FAQ"
+            name: "faq"
+            widget: object
+            fields:
+              - { label: "Titel", name: "title", widget: string }
+              - label: "Vragen"
+                name: "items"
+                widget: list
+                summary: "{{fields.question}}"
+                fields:
+                  - { label: "Vraag", name: "question", widget: string }
+                  - { label: "Antwoord", name: "answer", widget: text }
+
+          - label: "Eind-CTA"
+            name: "finalCta"
+            widget: object
+            fields:
+              - { label: "Titel", name: "title", widget: text }
+              - label: "Paragrafen"
+                name: "paragraphs"
+                widget: list
+                field: { label: "Paragraaf", name: "paragraph", widget: text }
+              - { label: "Microcopy", name: "microcopy", widget: string }
+
+          - label: "Reserveer pagina"
+            name: "formPage"
+            widget: object
+            fields:
+              - { label: "Titel", name: "title", widget: string }
+              - label: "Intro"
+                name: "intro"
+                widget: list
+                field: { label: "Paragraaf", name: "paragraph", widget: text }
+              - label: "Formuliervelden"
+                name: "fields"
+                widget: list
+                summary: "{{fields.label}}"
+                fields:
+                  - { label: "Naam (technisch)", name: "name", widget: string }
+                  - { label: "Label", name: "label", widget: string }
+                  - { label: "Type", name: "type", widget: select, options: ["text", "email", "tel", "textarea"] }
+                  - { label: "Verplicht", name: "required", widget: boolean, default: true, required: false }
+              - { label: "Checkbox label", name: "checkboxLabel", widget: text }
+              - { label: "Knop label", name: "buttonLabel", widget: string }
+              - { label: "Microcopy", name: "microcopy", widget: string }
+
+          - label: "Bedankt pagina"
+            name: "thankYouPage"
+            widget: object
+            fields:
+              - { label: "Titel", name: "title", widget: string }
+              - label: "Paragrafen"
+                name: "paragraphs"
+                widget: list
+                field: { label: "Paragraaf", name: "paragraph", widget: text }
+              - { label: "Knop label", name: "buttonLabel", widget: string }

@@ -1,0 +1,511 @@
+{
+  "site": {
+    "brandName": "Hou Ze Binnen",
+    "masterclassName": "Het Personeelslek",
+    "tagline": "Masterclasses over verzuim en personeelsbehoud in de zorg",
+    "siteTitle": "Hou Ze Binnen | Het Personeelslek",
+    "metaDescription": "Voor directies, eigenaren, operationeel managers, zorgmanagers en leidinggevenden in de zorg die klaar zijn met dweilen terwijl de kraan openstaat.",
+    "siteUrl": "https://www.personeelslek.nl",
+    "ctaLabel": "Reserveer mijn plek",
+    "ctaPath": "/reserveer/",
+    "primaryEmail": "info@personeelslek.nl",
+    "kvk": "60549297",
+    "addressLine": "Sir Winston Churchillln 285",
+    "postalCode": "2288DA",
+    "city": "Rijswijk",
+    "footerNote": "Voor beslissers die klaar zijn met dweilen terwijl de kraan openstaat.",
+    "faviconPath": "/favicon.svg",
+    "heroImage": "",
+    "heroImageAlt": "Samir in gesprek met een managementteam",
+    "storyImage": "",
+    "storyImageAlt": "Samir tijdens een presentatie",
+    "aboutImage": "",
+    "aboutImageAlt": "Samir in een professionele setting",
+    "ogImage": "/assets/defaults/og-card.svg"
+  },
+  "navigation": [
+    {
+      "label": "Masterclass",
+      "href": "#masterclass"
+    },
+    {
+      "label": "Voor wie",
+      "href": "#voor-wie"
+    },
+    {
+      "label": "Over Samir",
+      "href": "#over-samir"
+    },
+    {
+      "label": "Praktische info",
+      "href": "#praktische-info"
+    },
+    {
+      "label": "Reserveer mijn plek",
+      "href": "/reserveer/",
+      "isButton": true
+    }
+  ],
+  "hero": {
+    "kicker": "Voor directies, eigenaren, operationeel managers, zorgmanagers en leidinggevenden in de zorg",
+    "title": "Dicht je personeelslek",
+    "paragraphs": [
+      "Als jij 25 mensen aanneemt en er 30 verliest, heb je geen wervingsprobleem. Dan lekt je organisatie.",
+      "En zolang dat lek openstaat, kun je vacatures plaatsen, bonussen uitdelen, exitgesprekken voeren, loyale mensen kapot plannen en braaf achter elk advies van de bedrijfsarts aanlopen tot je een ons weegt.",
+      "Dan voelt het alsof je bezig bent. Maar je bent vooral aan het dweilen met de kraan open.",
+      "Ik laat je in één dag zien hoe je dat lek dichtdraait.",
+      "Niet uit theorie. Niet met een inspiratieshow. Wel met een simpele formule die is ontstaan na jaren chaos, uitval, verkeerde mensen, interne schade, hoog verzuim, personeelsverlies en one-man-army spelen.",
+      "Uit ervaring. Uit pijn. Uit fouten. Uit schade. En uit een zorgorganisatie die daarna jarenlang wél grip kreeg."
+    ],
+    "proof": "Gebaseerd op praktijk uit een zorgorganisatie die de afgelopen 5 jaar draaide op <3% verzuim, 9,0 eindcijfer kwaliteit, 98,2% aanbeveling en ISO HKZ-audits die het kwaliteitssysteem effectief en doelmatig noemen.",
+    "microcopy": "Kleine groep. Alleen voor beslissers. Geen zaal vol nieuwsgierige koffiedrinkers."
+  },
+  "proofBar": {
+    "label": "Afgelopen 5 jaar trackrecord",
+    "items": [
+      "<3% verzuim",
+      "9,0 kwaliteit",
+      "98,2% aanbeveling",
+      "2.500+ Google-reviews",
+      "1000+ Trustpilot-reviews",
+      "500+ ZorgkaartNederland reviews",
+      "130+ Indeed-reviews"
+    ]
+  },
+  "pain": {
+    "title": "Als jij leidinggeeft in de zorg, is de kans groot dat dit akelig bekend klinkt",
+    "items": [
+      {
+        "cue": "Ziekmelding",
+        "text": "Weer een ziekmelding op het slechtst denkbare moment."
+      },
+      {
+        "cue": "Bedrijfsarts",
+        "text": "Weer zo’n advies van de bedrijfsarts dat juridisch misschien klopt, maar waar je operationeel geen meter mee opschiet."
+      },
+      {
+        "cue": "Hakken",
+        "text": "Weer een medewerker die bij het eerste lastige gesprek met de hakken in het zand gaat."
+      },
+      {
+        "cue": "Loyalen",
+        "text": "Weer dezelfde loyale mensen die gaten dichten, terwijl de stillere of slimmere uitvallers buiten schot blijven."
+      },
+      {
+        "cue": "Paniekhire",
+        "text": "Weer iemand aangenomen uit paniek, terwijl je eigenlijk op dag één al voelde: dit gaat later gedoe geven."
+      },
+      {
+        "cue": "Exit",
+        "text": "Weer een exitgesprek dat netjes wordt opgeslagen en daarna precies niks oplost."
+      },
+      {
+        "cue": "Leiding",
+        "text": "Weer een leidinggevende die óf te hard is en mensen wegjaagt, óf te slap is en alles laat etteren."
+      },
+      {
+        "cue": "Rooster",
+        "text": "Weer een rooster dat op papier dicht lijkt, maar in de praktijk ruzie maakt met ieders privéleven."
+      },
+      {
+        "cue": "Team",
+        "text": "Weer een team dat van buiten prima oogt en van binnen moe wordt van vage regels, scheve verdeling en uitzonderingen die niemand nog kan uitleggen."
+      },
+      {
+        "cue": "Schade",
+        "text": "Weer een maand waarin je denkt dat je bezig bent met groei, terwijl je in werkelijkheid vooral schade aan het herstellen bent."
+      }
+    ],
+    "closing": "Dat is geen incident. Dat is een lek."
+  },
+  "story": {
+    "title": "Ik praat niet alleen over succes. Ik praat ook over de jaren waarin het goed misging.",
+    "paragraphs": [
+      "Meer dan twintig jaar ondernemerschap leert je veel. Maar de duurste lessen leer je niet in je goede jaren. Die leer je in de jaren waarin het schuurt.",
+      "Ik begon niet met voorsprong. Niet met geld. Niet met een netwerk. Niet met een routekaart.",
+      "Ik ken de jaren waarin verzuim je planning gijzelde. Ik ken de jaren waarin je meer mensen verliest dan je erbij haalt. Ik ken de schade van verkeerde mensen op verkeerde plekken. Ik ken de schade van blind varen op adviezen van buiten, terwijl je diep van binnen al voelt dat je zelf de regie kwijt bent. Ik ken de schade van een one-man-army zijn. Ik ken de schade van een prachtige onderneming die van binnenuit wordt aangevreten door de verkeerde mensen, de verkeerde toon en de verkeerde keuzes.",
+      "En precies daar zit de waarde van deze masterclass.",
+      "Niet omdat ik je een glanzend succesverhaal kom verkopen. Maar omdat ik je jaren van dom geld, dom gedoe en dom verlies kan besparen."
+    ],
+    "pullQuote": "Het is goed om van je eigen fouten te leren. Het is slimmer om van de mijne te leren.",
+    "timeline": [
+      "Begonnen vanuit niks",
+      "Jaren brandjes blussen",
+      "Interne schade en verkeerde mensen",
+      "Formule gebouwd",
+      "Jaren grip en betere resultaten"
+    ]
+  },
+  "turningPoint": {
+    "title": "Alles veranderde toen ik stopte met brandjes blussen en begon met het echte probleem oplossen",
+    "paragraphs": [
+      "Het echte probleem zit zelden alleen in verzuim.",
+      "En ook zelden alleen in werving.",
+      "Het zit meestal in de combinatie van:"
+    ],
+    "factors": [
+      "wie je binnenlaat",
+      "waar je mensen neerzet",
+      "hoe je roosters bouwt",
+      "wat je beloont",
+      "wat je tolereert",
+      "hoe zichtbaar prestaties zijn",
+      "hoe snel je ingrijpt",
+      "hoeveel ruggengraat leiderschap echt heeft"
+    ],
+    "outcomesIntro": "Pas toen ik dat glashelder maakte, veranderde de lijn. Niet een beetje. Maar fundamenteel.",
+    "outcomes": [
+      "Van dweilen naar sturen.",
+      "Van afhankelijk naar regie.",
+      "Van mensen verliezen naar mensen houden.",
+      "Van brandjes blussen naar voorspelbaarheid.",
+      "Van papieren beleid naar gedrag op de vloer."
+    ]
+  },
+  "formula": {
+    "title": "3 pijlers. 7 knoppen. Geen rookgordijn.",
+    "intro": "Ik heb jaren chaos uiteindelijk teruggebracht tot iets simpels. Drie cijfers verraden bijna altijd hoe gezond een zorgorganisatie echt is:",
+    "cards": [
+      {
+        "title": "Kwaliteit",
+        "body": "Als je niet glashelder maakt wat goede zorg is, ga je sturen op gevoel. En dan wordt kwaliteit een smaakdiscussie. Bij ons werd kwaliteit zichtbaar, meetbaar en bespreekbaar. Niet alleen voor directie. Tot op medewerkerniveau. Jaarlijks. Per kwartaal. Gekoppeld aan echt gedrag. De ISO-audit noemt juist die monitoring expliciet als onderdeel van een volwassen systeem."
+      },
+      {
+        "title": "Productie",
+        "body": "Productie klinkt zakelijk. Maar in de zorg betekent het iets veel belangrijkers: heb je genoeg handen, op het juiste moment, zonder roofbouw te plegen op de besten? Hier maken veel organisaties de fout om te veel aan te nemen, te veel te beloven en te laat te begrenzen. Ik stuurde juist scherper op waar het wel en niet structureel kon leveren; in de afgelopen jaren steeg het aandeel gezinnen met voldoende zorguren van 68% naar 96%."
+      },
+      {
+        "title": "Verzuim",
+        "body": "Verzuim is zelden alleen ziekte. Het is vaak ook een signaal van oneerlijkheid, vaag leiderschap, scheve roosters, te late gesprekken, zwakke selectie en cultuurverlies. Zodra je dat snapt, verandert verzuim van een arbodossier in een stuurvraagstuk en kan je je verzuim net als ik op termijn terugbrengen naar onder 3%."
+      }
+    ],
+    "knobIntro": "En onder die 3 pijlers zitten 7 knoppen waar je als leidinggevende aan draait:",
+    "knobs": [
+      "selectie aan de poort",
+      "juiste mens op de juiste plek",
+      "roosterarchitectuur",
+      "heldere regels zonder uitzonderingscircus",
+      "waardering die medewerkers echt voelen",
+      "zichtbare prestaties en terugkoppeling",
+      "vroeg, menselijk en duidelijk ingrijpen"
+    ],
+    "closing": "Dat is de kern van deze masterclass: niet nóg een losse oplossing. Wel een manier van kijken waardoor je eindelijk stopt met brandjes blussen."
+  },
+  "savings": {
+    "title": "Ik kan je jaren ellende besparen",
+    "items": [
+      "verkeerde mensen te lang laten zitten",
+      "goede mensen te snel verliezen",
+      "telkens opnieuw werven omdat je lek open blijft",
+      "verzuim behandelen als dossierwerk in plaats van als regie",
+      "luisteren naar elke externe partij behalve naar je eigen operatie",
+      "loyale mensen kapot plannen omdat zij het toch wel oplossen",
+      "secundaire arbeidsvoorwaarden inzetten als speeltje in plaats van als strategie",
+      "blijven hopen dat cultuur vanzelf goedkomt",
+      "pas ingrijpen als de schade al in je cijfers zit",
+      "geld verspillen aan repareren, compenseren en rondpompen"
+    ],
+    "closing": "Ik laat je zien waar je organisatie waarschijnlijk al jaren geld, energie, kwaliteit en goede mensen aan verbrandt."
+  },
+  "agenda": {
+    "title": "Ik trek de motorkap open van dingen waar de meeste zorgorganisaties omheen blijven praten",
+    "items": [
+      "waarom verzuim meestal veel eerder begint dan de ziekmelding",
+      "hoe je voorkomt dat steeds dezelfde loyale mensen het rooster redden",
+      "waarom een warme cultuur zonder heldere regels slap wordt",
+      "waarom een harde cultuur zonder gelijkwaardigheid juist verzuim voedt",
+      "wat je wel en niet met adviezen van bedrijfsarts en arbodienst moet doen",
+      "hoe je selectie aan de poort serieuzer maakt zonder kil te worden",
+      "hoe je voorkomt dat nieuwe mensen je planning, sfeer en kwaliteit leegzuigen",
+      "hoe je secundaire arbeidsvoorwaarden inzet als strategie in plaats van speelgoed",
+      "hoe je stopt met alles aannemen en begint met beter leveren",
+      "hoe je kwaliteit, productie en verzuim tegelijk zichtbaar maakt",
+      "hoe je van losse signalen een systeem maakt",
+      "hoe je als leidinggevende weer aan het stuur komt"
+    ],
+    "closing": "Geen theoretisch handboek. Wel een dag waardoor je anders gaat kijken. En daarna anders gaat sturen."
+  },
+  "lens": {
+    "title": "Je loopt hier niet weg met losse inspiratie, maar met een lens",
+    "seeDifferently": [
+      "je verzuim",
+      "je roosters",
+      "je leidinggevenden",
+      "je stille toppers",
+      "je verkeerde uitzonderingen",
+      "je secundaire arbeidsvoorwaarden",
+      "je idee van “personeelstekort”"
+    ],
+    "takeHome": [
+      "de taal om het echte probleem te benoemen",
+      "een scherpere bril voor waar het lekt",
+      "een concreter gevoel voor waar je te soft bent, te laat bent of verkeerd stuurt",
+      "een formule die je intern kunt gebruiken om keuzes sneller te toetsen"
+    ]
+  },
+  "proof": {
+    "title": "Mooie woorden zijn goedkoop. Dit stond zwart op wit.",
+    "intro": [
+      "Veel trainingen in deze markt zijn te lief. Of te juridisch. Of te theoretisch. Of te generiek. Dan krijg je een paar modellen, een flip-over vol post-its en iedereen gaat na de lunch weer door zoals daarvoor.",
+      "Daar geloof ik niet in."
+    ],
+    "beliefs": [
+      "echte fouten",
+      "echte keuzes",
+      "echte pijn",
+      "echte voorbeelden",
+      "echte sturing"
+    ],
+    "bridge": "Daarom is dit geen sessie waarin ik doe alsof alles altijd soepel liep. Juist niet. Ik laat je zien hoe een organisatie door diepe ellende heen een lijn heeft gebouwd die jaren later aantoonbaar beter presteert.",
+    "proofBlocks": [
+      {
+        "label": "Verzuim 2020 - 2025",
+        "value": "<3%"
+      },
+      {
+        "label": "Kwaliteit 2020 - 2025",
+        "value": "9,0 als eindcijfer"
+      },
+      {
+        "label": "Aanbeveling 2020 - 2025",
+        "value": "98,2%"
+      },
+      {
+        "label": "Publieke reviews",
+        "value": "bijna 4.000 verdeeld over Google, Trustpilot, ZorgkaartNederland en Indeed"
+      },
+      {
+        "label": "MTO",
+        "value": "gemiddelde score van 4,5 op 5"
+      },
+      {
+        "label": "MTO sterke punten",
+        "value": "familiegevoel, toegankelijke leiding, open communicatie"
+      },
+      {
+        "label": "15-jarige ISO HKZ-audit",
+        "value": "volwassen KMS, aantoonbare PDCA, verbeterregister, kwartaalrapportages en stoplichtsysteem; het systeem werkt effectief en doelmatig"
+      }
+    ],
+    "snippetImages": [],
+    "closing": "Dat laatste is misschien nog wel het belangrijkst. Want dit bewijst dat het niet alleen “een stijl” is. Er zit een systeem onder."
+  },
+  "audience": {
+    "title": "Voor wie dit wél is",
+    "intro": "Voor directies, eigenaren, operationeel managers, zorgmanagers en leidinggevenden in de zorg.",
+    "fitItems": [
+      "recruitment alleen gaat ons hier niet uit redden",
+      "ons probleem zit dieper dan bezetting",
+      "wij praten al te lang over dezelfde personeelsproblemen",
+      "wij moeten scherper, eerlijker en slimmer gaan sturen",
+      "wij willen minder improviseren en meer grip"
+    ],
+    "sectors": [
+      "thuiszorg",
+      "VVT",
+      "kinderopvang",
+      "kraamzorg"
+    ],
+    "closing": "Zorg en welzijn blijft landelijk een sector met hoog verzuim; in het eerste kwartaal van 2025 lag dat op 8,1%, en in het vierde kwartaal van 2025 op 7,9%."
+  },
+  "notFor": {
+    "title": "Niet voor iedereen dus",
+    "items": [
+      "Niet voor organisaties die alleen een leuke spreker zoeken voor na de lunch.",
+      "Niet voor managers die vooral bevestiging willen horen.",
+      "Niet voor organisaties die hopen dat één dag hun cultuur repareert terwijl hun eigen gedrag hetzelfde blijft.",
+      "En ook niet voor mensen die op zoek zijn naar een wondermiddel.",
+      "Dat verkoop ik niet."
+    ]
+  },
+  "practical": {
+    "title": "Pilotgroep | Het Personeelslek",
+    "details": [
+      {
+        "label": "Datum",
+        "value": "[datum invullen]"
+      },
+      {
+        "label": "Locatie",
+        "value": "[locatie invullen]"
+      },
+      {
+        "label": "Tijd",
+        "value": "09:30 – 16:30"
+      },
+      {
+        "label": "Groep",
+        "value": "maximaal 14 beslissers"
+      },
+      {
+        "label": "Voor wie",
+        "value": "directie, eigenaar, operationeel manager, zorgmanager, leidinggevende"
+      }
+    ],
+    "prices": [
+      {
+        "label": "Pilotprijs",
+        "value": "€795 excl. btw",
+        "highlight": true
+      },
+      {
+        "label": "Reguliere prijs daarna",
+        "value": "€995 excl. btw"
+      },
+      {
+        "label": "Duo-ticket",
+        "value": "€1.590 excl. btw"
+      },
+      {
+        "label": "Incompany",
+        "value": "vanaf €4.950 excl. btw"
+      }
+    ],
+    "copy": [
+      "Dit is bewust geen massadag.",
+      "Ik wil geen zaal vol nieuwsgierige mensen die “wel eens willen luisteren”.",
+      "Ik wil een kleine groep met beslissers die voelen: wij moeten hier iets mee."
+    ],
+    "microcopy": "Pilotprijs geldt alleen voor de eerste groep. Vol = vol."
+  },
+  "about": {
+    "title": "Geen influencer. Geen motivator. Wel iemand die meerdere organisaties gebouwd heeft.",
+    "intro": "Ik ben geen influencer. Geen motivational speaker. En ook geen adviseur die van buitenaf even komt vertellen hoe het moet. Ik heb zelf gebouwd. Zelf fouten gemaakt. Zelf verkeerde mensen te lang laten zitten. Zelf gezien hoe snel cultuur kan kantelen als de verkeerde toon de norm wordt.",
+    "paragraphs": [
+      "Ik hoef geen filmpjes te maken waarin ik schreeuw dat je verzuim binnen een jaar naar 3% kan gaan. Daar heb ik niks mee.",
+      "Wat ik wel doe, is laten zien hoe je een zorgorganisatie bouwt waar mensen willen werken, willen blijven en zich niet als wegwerpartikel behandeld voelen.",
+      "En ja, daar horen ook onconventionele keuzes bij. Niet als circus. Wel als strategie.",
+      "Wat ik heb geleerd, is simpel: medewerkers vertrekken zelden alleen door salaris. Ze vertrekken of melden zich langdurig ziek door onduidelijkheid, oneerlijkheid, zwak leiderschap, scheve drukverdeling en een cultuur die mooier klinkt dan ze voelt.",
+      "Omgekeerd geldt ook iets: tevreden medewerkers zijn geen toeval. Daar zit ontwerp achter. Gedrag achter. Ritme achter. Keuzes achter. En soms ook de moed om minder aan te nemen, grenzen te stellen of afscheid te nemen van wat niet gezond meer is."
+    ],
+    "beliefsTitle": "Waar ik in geloof",
+    "beliefs": [
+      "Medewerkers net zo belangrijk nemen als cliënten",
+      "Warmte zonder slapte",
+      "Duidelijke regels zonder kille werkvloer",
+      "Sturen op kwaliteit, productie en verzuim tegelijk",
+      "Problemen vroeg zien, niet laat verklaren",
+      "Liever eerlijk dan populair"
+    ],
+    "expectationsTitle": "Wat je van mij kunt verwachten",
+    "expectations": [
+      "Een heldere mening.",
+      "Geen opsmuk.",
+      "Geen angst om pijnpunten te benoemen.",
+      "Maar ook geen afbranden om het afbranden.",
+      "Als iets goed is, zeg ik het. Als iets lek is, zeg ik dat ook."
+    ]
+  },
+  "faq": {
+    "title": "Veelgestelde vragen",
+    "items": [
+      {
+        "question": "Is dit alleen voor specifieke zorgtakken?",
+        "answer": "Nee. De praktijkbasis ligt in de thuiszorg, maar de pijn is breder. Verzuim, roosterdruk, behoud, cultuur en leiding."
+      },
+      {
+        "question": "Garandeer je dat wij onder 3% verzuim uitkomen?",
+        "answer": "Nee. Wie garanties roept in dit soort vraagstukken verkoopt lucht. Ik verkoop geen wondermiddel. Ik verkoop een andere manier van kijken, kiezen en sturen."
+      },
+      {
+        "question": "Is dit een inspiratiesessie?",
+        "answer": "Nee. Het is een dag vol herkenning, systeem en confronterende praktijklessen."
+      },
+      {
+        "question": "Kunnen we ook met meerdere mensen komen?",
+        "answer": "Ja. Graag zelfs. Dan praat je achteraf niet in je eentje tegen een dichte deur."
+      },
+      {
+        "question": "Kunnen we dit ook incompany boeken?",
+        "answer": "Ja. Maar de hoofdpagina verkoopt bewust eerst open inschrijving. Hele MT meenemen? Dan plannen we een aparte sessie."
+      },
+      {
+        "question": "Is dit een training of een schop onder de tafel?",
+        "answer": "Allebei."
+      },
+      {
+        "question": "Waarom eerst klein?",
+        "answer": "Omdat kleine groepen betere vragen stellen, meer aandacht krijgen en veel meer effect hebben."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Je hoeft niet nog een jaar te verliezen aan hetzelfde personeelsgedoe",
+    "paragraphs": [
+      "Reserveer je plek.",
+      "Dan leer je niet alleen wat beter kan.",
+      "Maar vooral waar jouw organisatie zichzelf nu nog in de weg zit."
+    ],
+    "microcopy": "Voor beslissers die klaar zijn met dweilen terwijl de kraan openstaat."
+  },
+  "formPage": {
+    "title": "Reserveer mijn plek",
+    "intro": [
+      "Vertel kort wie je bent en waar het bij jullie nu het hardst lekt.",
+      "Ik lees dit zelf. Geen chatbot. Geen geautomatiseerde salesfuik."
+    ],
+    "fields": [
+      {
+        "name": "naam",
+        "label": "Naam",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "organisatie",
+        "label": "Organisatie",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "functie",
+        "label": "Functie",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "sector",
+        "label": "Sector",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "aantal_medewerkers",
+        "label": "Aantal medewerkers",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "grootste_pijn",
+        "label": "Waar zit bij jullie nu de grootste pijn?",
+        "type": "textarea",
+        "required": true
+      },
+      {
+        "name": "telefoonnummer",
+        "label": "Telefoonnummer",
+        "type": "tel",
+        "required": true
+      },
+      {
+        "name": "email",
+        "label": "E-mailadres",
+        "type": "email",
+        "required": true
+      }
+    ],
+    "checkboxLabel": "Ja, ik ontvang graag informatie over de eerstvolgende masterclass.",
+    "buttonLabel": "Vraag mijn plek aan",
+    "microcopy": "Ik houd de groep klein. Daarom check ik eerst of jij echt bij deze dag past."
+  },
+  "thankYouPage": {
+    "title": "Je aanvraag is binnen",
+    "paragraphs": [
+      "Goed.",
+      "Ik kijk eerst of je rol, organisatie en vraagstuk passen bij de groep.",
+      "Als dat zo is, hoor je snel van me.",
+      "Geen match? Dan zeg ik dat ook gewoon."
+    ],
+    "buttonLabel": "Terug naar de masterclass"
+  }
+}
